@@ -43,13 +43,15 @@ class car1 : public Car
     int car_model;
     int noOfdoors;
     int noOfseats;
-    car1(string car_name1,int car_model1,int noOfdoors1,int noOfseats1)
+string car_color;
+    car1(string car_name1,int car_model1,int noOfdoors1,int noOfseats1,string car_color)
     {
         cout<<"inside car1 class"<<endl;
         this->car_name=car_name1;
         this->car_model=car_model1;
         this->noOfdoors=noOfdoors1;
         this->noOfseats=noOfseats1;
+        this->car_color=car_color;
     }
 
     void ac()
